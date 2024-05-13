@@ -30,7 +30,7 @@
 // const target = 9;
 // console.log(twoSum(nums, target)); // Output: [0, 1] (indices of 2 and 7)
 
-// ! Palindrome
+// !  Palindrome
 function isPalindrome(str) {
   let rev = str.split("").reverse().join("");
 
@@ -47,3 +47,5 @@ let str3 = "Rama";
 console.log(isPalindrome(str1));
 console.log(isPalindrome(str2));
 console.log(isPalindrome(str3));
+
+
