@@ -53,12 +53,32 @@ function find3Numbers(A, arr_size, sum)
 	
 // This code is contributed by Mayank Tyagi
 
-write a programer to add 3 Numbers 
+// write a programer to add 3 Numbers 
 
 
-let a = 10;
-let b = 20;
-let c = 30;	
-let d = a + b + c;
-console.log(d);	
+// let a = 10;
+// let b = 20;
+// let c = 30;	
+// let d = a + b + c;
+// console.log(d);	
  
+write a programer to add 3 Numbers of array 
+
+// how to add 3 numbers of array together in javascript
+
+function add3NumsToSum(arr, sum) {
+    let res = false;
+    for(let i = 0; i < arr.length - 2; i++) {
+        for(let j = i + 1; j < arr.length - 1; j++) {
+            for(let k = j + 1; k < arr.length; k++) {
+                if(arr[i] + arr[j] + arr[k] === sum) {
+                    res = true;
+                    break;
+                }
+            }
+            if(res) break;
+        }
+        if(res) break;
+    }
+    return res;
+}
