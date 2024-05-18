@@ -87,6 +87,6 @@ function add3NumsToSum(arr, sum) {
 
 
 let arr = [ 1, 4, 45, 6, 10, 8 ]; 
-let sum = 2;
+let sum = 20;
 let arr_size = arr.length; 
 add3NumsToSum(arr, sum);
