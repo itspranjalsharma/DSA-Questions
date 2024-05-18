@@ -46,10 +46,10 @@ function find3Numbers(A, arr_size, sum)
 
 /* Driver code */
 
-	let A = [ 1, 4, 45, 6, 10, 8 ]; 
-	let sum = 2; 
-	let arr_size = A.length; 
-	find3Numbers(A, arr_size, sum); 
+	// let A = [ 1, 4, 45, 6, 10, 8 ]; 
+	// let sum = 2; 
+	// let arr_size = A.length; 
+	// find3Numbers(A, arr_size, sum); 
 	
 // This code is contributed by Mayank Tyagi
 
@@ -65,6 +65,8 @@ function find3Numbers(A, arr_size, sum)
 write a programer to add 3 Numbers of array 
 
 // how to add 3 numbers of array together in javascript
+
+
 
 function add3NumsToSum(arr, sum) {
     let res = false;
@@ -82,3 +84,9 @@ function add3NumsToSum(arr, sum) {
     }
     return res;
 }
+
+
+let arr = [ 1, 4, 45, 6, 10, 8 ]; 
+let sum = 2;
+let arr_size = arr.length; 
+add3NumsToSum(arr, sum);
