@@ -47,10 +47,18 @@ function find3Numbers(A, arr_size, sum)
 /* Driver code */
 
 	let A = [ 1, 4, 45, 6, 10, 8 ]; 
-	let sum = 22; 
+	let sum = 2; 
 	let arr_size = A.length; 
 	find3Numbers(A, arr_size, sum); 
 	
 // This code is contributed by Mayank Tyagi
 
+write a programer to add 3 Numbers 
 
+
+let a = 10;
+let b = 20;
+let c = 30;	
+let d = a + b + c;
+console.log(d);	
+ 
