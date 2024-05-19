@@ -62,7 +62,7 @@ function find3Numbers(A, arr_size, sum)
 // let d = a + b + c;
 // console.log(d);	
  
-write a programer to add 3 Numbers of array 
+// write a programer to add 3 Numbers of array 
 
 // how to add 3 numbers of array together in javascript
 
