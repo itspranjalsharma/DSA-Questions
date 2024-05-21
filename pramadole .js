@@ -43,4 +43,23 @@ function reverseString1(str) {
 
 const str = "hello";
 const reversedStr = reverseString1(str);
-console.log(reversedStr); 
+console.log(reversedStr);
+
+// isEmpty4
+function isEmpty4(str) {
+  return str === 0;
+}
+const monu = isEmpty4("monu123");
+console.log(isEmpty4(monu));
+
+function isEmpty4(str) {
+  return str?.length === 0;
+}
+
+const maybeEmptyStr = "";
+const nonEmptyStr = "Hello";
+let potentiallyNullStr;
+
+console.log(isEmpty4(maybeEmptyStr)); // Output: true
+console.log(isEmpty4(nonEmptyStr)); // Output: false
+console.log(isEmpty4(potentiallyNullStr)); // Output: undefined (but doesn't throw an error)
