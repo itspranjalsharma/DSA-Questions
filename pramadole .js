@@ -34,3 +34,13 @@ const str3 = "hello";
 console.log(isPalindrome(str1)); // true
 console.log(isPalindrome(str2)); // true
 console.log(isPalindrome(str3)); // false
+
+/// Reverse a string using split and join
+
+function reverseString1(str) {
+  return str.split("").reverse().join("");
+}
+
+const str = "hello";
+const reversedStr = reverseString1(str);
+console.log(reversedStr); 
