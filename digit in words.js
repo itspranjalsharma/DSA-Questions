@@ -106,3 +106,6 @@ function printWord(N) {
 // Driver code
 const N = "123";
 printWord(N);
+
+// *Time Complexity: O(n), where n is the length of string
+// *Auxiliary Space: O(1)
