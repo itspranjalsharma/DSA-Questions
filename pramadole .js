@@ -15,15 +15,15 @@ function isPalindrome(str) {
   let right = processedStr.length - 1;
 
   while (left < right) {
-    if (processedStr[left] !== processedStr[right]) {
-      return false; // Characters don't match, not a palindrome
+    if (processedStr[left] == processedStr[right]) {
+      return true; // Characters don't match, not a palindrome
     }
     left++;
     right--;
   }
 
   // 4. If the loop completes, all characters matched, it's a palindrome
-  return true;
+  return false;
 }
 
 // Example usage
@@ -35,6 +35,7 @@ console.log(isPalindrome(str1)); // true
 console.log(isPalindrome(str2)); // true
 console.log(isPalindrome(str3)); // false
 
+console.log("The First one is over------");
 /// Reverse a string using split and join
 
 function reverseString1(str) {
@@ -43,7 +44,9 @@ function reverseString1(str) {
 
 const str = "hello";
 const reversedStr = reverseString1(str);
-console.log(reversedStr);
+console.warn(reversedStr);
+
+console.log("The Second one is over------");
 
 // isEmpty4
 function isEmpty4(str) {
