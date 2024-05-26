@@ -6,75 +6,103 @@
 // Function to return the word
 // of the corresponding digit
 function printValue(digit) {
-    // Switch block to check for
-    // each digit c
-    switch (digit) {
+  // Switch block to check for
+  // each digit c
+  switch (digit) {
     // For digit 0
     case "0":
-        document.write("Zero ");
-        break;
+      document.write("Zero ");
+      break;
 
     // For digit 1
     case "1":
-        document.write("One ");
-        break;
+      document.write("One ");
+      break;
 
     // For digit 2
     case "2":
-        document.write("Two ");
-        break;
+      document.write("Two ");
+      break;
 
     // For digit 3
     case "3":
-        document.write("Three ");
-        break;
+      document.write("Three ");
+      break;
 
     // For digit 4
     case "4":
-        document.write("Four ");
-        break;
+      document.write("Four ");
+      break;
 
     // For digit 5
     case "5":
-        document.write("Five ");
-        break;
+      document.write("Five ");
+      break;
 
     // For digit 6
     case "6":
-        document.write("Six ");
-        break;
+      document.write("Six ");
+      break;
 
     // For digit 7
     case "7":
-        document.write("Seven ");
-        break;
+      document.write("Seven ");
+      break;
 
     // For digit 8
     case "8":
-        document.write("Eight ");
-        break;
+      document.write("Eight ");
+      break;
 
     // For digit 9
     case "9":
-        document.write("Nine ");
-        break;
-    }
+      document.write("Nine ");
+      break;
+  }
 }
 
 // Function to iterate through every
 // digit in the given number
 function printWord(N) {
-    var i,
+  var i,
     length = N.length;
 
-    // Finding each digit of the number
-    for (i = 0; i < length; i++) {
+  // Finding each digit of the number
+  for (i = 0; i < length; i++) {
     // Print the digit in words
     printValue(N[i]);
-    }
+  }
 }
 
 // Driver code
 var N = "123";
 printWord(N);
 
+//  *Time Complexity: O(L), Here L is the length of the string
+// *Auxiliary Space: O(1), As constant extra space is used.
+
+// Method 2
+
+// Function to iterate through every
+// digit in the given number
+function printWord(N) {
+  const digits = {
+    1: "One",
+    2: "Two",
+    3: "Three",
+    4: "Four",
+    5: "Five",
+    6: "Six",
+    7: "Seven",
+    8: "Eight",
+    9: "Nine",
+    0: "Zero",
+  };
+  for (let number of N) {
+    console.log(digits[number] + " ");
+  }
+}
+
+// Driver code
+const N = "123";
+printWord(N);
