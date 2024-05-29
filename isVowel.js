@@ -11,13 +11,14 @@ function countOfVowel(str) {
     if (isVowel(str[i]))
       // Check for vowel
       ++count;
-    return count;
   }
+  return count;
 }
 
-var str = "pran jal";
+var str = "radhika";
 
 console.log(countOfVowel(str));
+console.log("<br>");
 
 // JavaScript program to count vowels in a string
 
@@ -40,7 +41,7 @@ function countVowels(str) {
 // Main Calling Function
 
 // string object
-var str = "abc de";
+var str = "radhika";
 
 // Total numbers of Vowel
 // console.log(countVowels(str));
