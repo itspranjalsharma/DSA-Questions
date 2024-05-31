@@ -14,4 +14,13 @@ function Square_Diff(n) {
 
 const n = 10;
 console.log(Square_Diff(n));
-// This code is contributed by 
+// This code is contributed by pranjal sharma
+
+// Time Complexity: O(n)
+
+// Auxiliary Space: O(1)
+
+// Approach : 
+// 1. Find the sum of square of first n natural numbers. 
+// 2. Find the sum of first n numbers and square it. 
+// 3. Find the absolute difference between both the sums and print it.
