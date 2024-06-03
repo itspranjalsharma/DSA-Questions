@@ -63,3 +63,4 @@ let num = 5;
 document.write("Factorial of " + num + " is " + factorial(num));
 
 // This code is contributed by Pranjal Sharma
+      
