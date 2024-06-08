@@ -20,3 +20,30 @@ var n = arr.length;
 console.log("Index of a peak point is " + findPeak(arr, n));
 
 // This code is contributed by pranjal sharma.
+
+// JavaScript implementation of the approach
+
+// Function that returns true if the word is found
+function isWordPresent(sentence, word) {
+  // To break the sentence in words
+  let s = sentence.split(" ");
+
+  // To temporarily store each individual word
+  for (let temp = 0; temp < s.length; temp++) {
+    // Comparing the current word
+    // with the word to be searched
+    if (s[temp] == word) {
+      return true;
+    }
+  }
+  return false;
+}
+
+// Driver code
+let s = "Geeks for Geeks";
+let word = "Geeks";
+
+if (isWordPresent(s, word)) document.write("Yes");
+else document.write("No");
+
+// This code is contributed by pranjal sharma
