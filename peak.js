@@ -17,7 +17,7 @@ function findPeak(arr, n) {
 // Driver Code
 var arr = [1, 3, 20, 4, 1, 0];
 var n = arr.length;
-console.log("Index of a peak point is " + findPeak(arr, n));
+// console.log("Index of a peak point is " + findPeak(arr, n));
 
 // This code is contributed by pranjal sharma.
 
@@ -43,7 +43,7 @@ function isWordPresent(sentence, word) {
 let s = "Geeks for Geeks";
 let word = "Geeks";
 
-if (isWordPresent(s, word)) document.write("Yes");
-else document.write("No");
+if (isWordPresent(s, word)) console.log("Yes");
+else console.log("No");
 
 // This code is contributed by pranjal sharma
