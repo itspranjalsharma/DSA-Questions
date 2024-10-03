@@ -97,6 +97,7 @@ function printWord(N) {
     8: "Eight",
     9: "Nine",
     0: "Zero",
+    22:"Twenty two"
   };
   for (let number of N) {
     console.log(digits[number] + " ");
