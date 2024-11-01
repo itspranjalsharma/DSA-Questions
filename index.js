@@ -43,6 +43,7 @@ function isPalindrome(str) {
 let str1 = "racecar";
 let str2 = "nitin";
 let str3 = "Rama";
+let str4 = "Radhika"
 
 console.log(isPalindrome(str1));
 console.log(isPalindrome(str2));
